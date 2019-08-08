@@ -160,6 +160,9 @@ public class UserServiceImpl implements IUserService {
         }
         return 0;
     }
-
+    @Override
+    public  Long selectLid(String username){
+        return this.userMapper.selectLid(username);
+    }
 
 }

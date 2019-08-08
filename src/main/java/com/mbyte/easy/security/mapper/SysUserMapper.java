@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.mbyte.easy.security.entity.SysUser;
 import org.apache.ibatis.annotations.Param;
+import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 
@@ -44,4 +45,7 @@ public interface SysUserMapper {
 	 * @return
 	 */
 	IPage<SysUser> selectByUserForPage(Page page, @Param("username") String username);
+	@Select("<script> select id from sys_user where username = #{username}  </script>")
+	Long selectLid(String username);
+
 }

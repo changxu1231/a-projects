@@ -76,5 +76,7 @@ public interface IUserService {
      * @return int
      **/
     int editUserAndRole(SysUser user, String userRoles);
+    //查询id
+    Long selectLid(String username);
 
 }

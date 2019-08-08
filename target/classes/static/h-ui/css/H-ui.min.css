@@ -8195,7 +8195,7 @@ a.logo:hover {
 
 .navbar-nav>ul>li,.navbar-nav>ul>li>a {
     line-height: 57px;
-    font-size: 14px
+    font-size: 15px
 }
 
 @media(max-width:767px) {

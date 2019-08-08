@@ -227,11 +227,11 @@ public class UserController {
 	 */
 	@PreAuthorize("hasAuthority('/user/modify-password')")
 	@RequestMapping(value = "/modify-password/{id}")
-	public String modifyPasswordBefore(Model model, @ModelAttribute(value = "user") SysUser user,
-			@PathVariable("id") Long id) {
-		user = userService.selectByPrimaryKey(user.getId());
-		model.addAttribute("user", user);
-		return this.prefix + "admin-modify-password";
+		public String modifyPasswordBefore(Model model, @ModelAttribute(value = "user") SysUser user,
+				@PathVariable("id") Long id) {
+			user = userService.selectByPrimaryKey(user.getId());
+			model.addAttribute("user", user);
+			return this.prefix + "admin-modify-password";
 	}
 
 	/**
@@ -261,5 +261,15 @@ public class UserController {
 			return "1";
 		}
 		return "0";
+	}
+	@RequestMapping("/modify-passwords")
+	public String modifyPasswordBefores(Model model, @ModelAttribute(value = "user") SysUser user) {
+
+		String username = Utility.getCurrentUsername();
+		System.err.println("111111" + user.getId());
+		Long id = userService.selectLid(username);
+		user = userService.selectByPrimaryKey(id);
+		model.addAttribute("user", user);
+		return this.prefix + "admin-modify-password";
 	}
 }
