@@ -3,24 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9198d71d-3711-45ff-bd24-cf6725637898" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mbyte/easy/security/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mbyte/easy/security/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mbyte/easy/security/mapper/SysUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mbyte/easy/security/mapper/SysUserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mbyte/easy/security/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mbyte/easy/security/service/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mbyte/easy/security/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mbyte/easy/security/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/h-ui/css/H-ui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/h-ui/css/H-ui.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/_footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/_footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/_header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/security/admin-modify-password.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/security/admin-modify-password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/security/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/security/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/security/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/security/welcome.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mbyte/easy/security/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mbyte/easy/security/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mbyte/easy/security/mapper/SysUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mbyte/easy/security/mapper/SysUserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mbyte/easy/security/service/IUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mbyte/easy/security/service/IUserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mbyte/easy/security/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mbyte/easy/security/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/h-ui/css/H-ui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/h-ui/css/H-ui.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/_header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/security/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/security/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/security/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/security/welcome.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,16 +13,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/_header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="30" column="68" selection-start-line="30" selection-start-column="68" selection-end-line="30" selection-end-column="68" />
+            <state relative-caret-position="810">
+              <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#header#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#div#0;n#header#0;n#!!top" expanded="true" />
@@ -54,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/_footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1161">
-              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="1566">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
             </state>
           </provider>
         </entry>
@@ -63,7 +44,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mbyte/easy/security/mapper/SysUserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
+            <state relative-caret-position="1134">
               <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -72,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/security/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="136" column="3" selection-start-line="136" selection-start-column="3" selection-end-line="136" selection-end-column="3" />
+            <state relative-caret-position="88">
+              <caret line="143" column="30" lean-forward="true" selection-start-line="143" selection-start-column="30" selection-end-line="143" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -86,11 +67,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" column="37" lean-forward="true" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/security/welcome.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="837">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -129,7 +119,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-12" />
     <option name="width" value="1386" />
     <option name="height" value="731" />
@@ -416,13 +406,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18272000" />
+    <option name="totallyTimeSpent" value="18891000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20499243" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3441755" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -463,8 +452,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        <state relative-caret-position="27">
+          <caret line="1" column="37" lean-forward="true" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -689,7 +678,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mbyte/easy/security/mapper/SysUserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
+        <state relative-caret-position="1134">
           <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -734,22 +723,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/_footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1161">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="1566">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/security/welcome.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="837">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/_header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="30" column="68" selection-start-line="30" selection-start-column="68" selection-end-line="30" selection-end-column="68" />
+        <state relative-caret-position="810">
+          <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#header#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#div#0;n#header#0;n#!!top" expanded="true" />
@@ -761,8 +750,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/security/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="136" column="3" selection-start-line="136" selection-start-column="3" selection-end-line="136" selection-end-column="3" />
+        <state relative-caret-position="88">
+          <caret line="143" column="30" lean-forward="true" selection-start-line="143" selection-start-column="30" selection-end-line="143" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
