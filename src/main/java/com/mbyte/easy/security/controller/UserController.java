@@ -272,4 +272,9 @@ public class UserController {
 		model.addAttribute("user", user);
 		return this.prefix + "admin-modify-password";
 	}
+	@RequestMapping("/time")
+	public String time() {
+
+		return this.prefix + "admin-time";
+	}
 }
