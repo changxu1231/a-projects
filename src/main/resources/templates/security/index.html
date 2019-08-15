@@ -127,25 +127,9 @@
     function ff1() {
         document.getElementById("color").innerHTML="橙色";
     }
-    function fg1(){
-        var s =  document.getElementById('color');
-        if(s=='[object HTMLSpanElement]'){
-            document.getElementById("color").innerHTML="黑色";
-        }
-    }
     //控制刷新页面后a标签自动点击，赋予默认颜色
     $(function () {
         $('#a').click();
-    });
-
-
-</script>
-<script src="js/jquery-2.1.4.js"></script>
-<script src="js/jquery.PrintArea.min.js"></script>
-<script>
-
-    $("#btnPrintFull").click(function(){
-        $("body").printArea();
     });
 
 </script>
@@ -153,8 +137,6 @@
 <script type="text/javascript">
     $(function(){
         $("#printsss").on('click',function(){
-
-
             window.print()
         });
 
@@ -231,6 +213,6 @@
         setTimeout("showtime();", 1000); //设定函数自动执行时间为 1000 ms(1 s)
     }
 </script>
-<script  type="text/javascript"> showtime();fg1()</script>
+<script  type="text/javascript"> showtime()</script>
 </body>
 </html>

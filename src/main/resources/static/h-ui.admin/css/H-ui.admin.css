@@ -57,7 +57,7 @@ h4 {
 	width: 230px;
 	z-index: 99;
 	overflow: auto;
-	background-color: rgba(238,238,238,0.98);
+	background-color: rgba(255,74,0,0.98);
 	_background-color: rgb(238,238,238);
 	border-right: 1px solid #e5e5e5
 }

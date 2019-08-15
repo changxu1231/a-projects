@@ -3,10 +3,10 @@ package com.mbyte.easy;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.scheduling.annotation.EnableScheduling;
-
 /**
+
  * SpringBoot启动类
- * @author  王震
+ * @author  常旭
  */
 @SpringBootApplication
 @EnableScheduling
