@@ -277,4 +277,24 @@ public class UserController {
 
 		return this.prefix + "admin-time";
 	}
+	//游戏娱乐页面
+	@RequestMapping("/play")
+	public String play() {
+		return this.prefix + "admin-play";
+	}
+	//俄罗斯方块
+	@RequestMapping("/tetris")
+	public String tetris() {
+		return this.prefix + "admin-tetris";
+	}
+	//象棋
+	@RequestMapping("/chess")
+	public String chess() {
+		return this.prefix + "admin-chess";
+	}
+	//五子棋
+	@RequestMapping("/gobang")
+	public String gobang() {
+		return this.prefix + "admin-gobang";
+	}
 }
