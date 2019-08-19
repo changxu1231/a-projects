@@ -297,4 +297,14 @@ public class UserController {
 	public String gobang() {
 		return this.prefix + "admin-gobang";
 	}
+	//布局
+	@RequestMapping("/welcomea")
+	public String welcomea() {
+		return this.prefix + "admin-welcomea";
+	}
+	//天气预报
+	@RequestMapping("/weather")
+	public String welcome() {
+		return this.prefix + "admin-weather";
+	}
 }

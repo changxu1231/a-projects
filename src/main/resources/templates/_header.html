@@ -11,10 +11,12 @@
 						<a href="javascript:void(0);" style="font-size:1.6em;color:#fff;height:61px;" onClick="displaynavbar(this)"><i class="Hui-iconfont">&#xe681;</i></a>
 						<a href="javascript:;"
 						   onclick="layer_show('圆形虚线时钟','/user/time',950,600)">
-							<span id="time"></span>
+							<span id="time" style="padding-bottom: 2px"></span>
 						</a>
 
 					</li>
+
+
 				</ul>
 			</nav>
 			<nav id="Hui-userbar" class="nav navbar-nav navbar-userbar hidden-xs">
@@ -28,6 +30,10 @@
 							<li><a th:href="@{/logout}" href="logout">退出登录</a></li>
 						</ul>
 					</li>
+					<li><a href="javascript:;"
+						   onclick="layer_show('天气','/user/weather',750,400)">
+						<span >天气</span>
+					</a> </li>
 					<li><a href="javascript:;" id="printsss">打印 </a></li>
 					<li><a href="javascript:;" data-val="green" title="颜色">主题：<span id="color"></span></a></li>
 					<li id="Hui-skin"   class="dropDown right dropDown_hover"> <a href="javascript:;" class="dropDown_A" title="换肤"><i class="Hui-iconfont" style="font-size:18px">&#xe62a;</i></a>
@@ -45,5 +51,6 @@
 			</nav>
 		</div>
 	</div>
+
 </header>
 

@@ -4,6 +4,7 @@
     <title>EASY-BYTE</title>
     <meta name="keywords" content="EASY-BYTE"/>
     <meta name="description" content="EASY-BYTE"/>
+
 </head>
 <body>
 <header class="navbar-wrapper" th:replace="_header :: header">
@@ -14,10 +15,15 @@
         <div class="Hui-tabNav-wp">
             <ul id="min_title_list" class="acrossTab cl">
                 <li class="active">
-                    <span title="👍" data-href="templates/welcome.html">👍</span>
+                    <span title="👍" data-href="templates/admin-time.html">👍</span>
                     <em></em></li>
+
             </ul>
+            </div>
+
+
         </div>
+
         <div class="Hui-tabNav-more btn-group">
             <a id="js-tabNav-prev" class="btn radius btn-default size-L" href="javascript:;" style="line-height: 20px"><i class="Hui-iconfont">&#xe6d4;</i></a>
             <a id="js-tabNav-next" class="btn radius btn-default size-L" href="javascript:;" style="line-height: 20px"><i class="Hui-iconfont">&#xe6d7;</i></a>
@@ -132,6 +138,17 @@
         $('#a').click();
     });
 
+    function refres() {
+        location.reload();
+    }
+    function getkey(a) {
+        // var pms = 'Key=' + document.getElementById("texta").value;
+        a.href = '/admin/shifts/?';
+    }
+
+    function bo() {
+       alert("123");
+    }
 </script>
 
 <script type="text/javascript">
@@ -214,5 +231,6 @@
     }
 </script>
 <script  type="text/javascript"> showtime()</script>
+
 </body>
 </html>
