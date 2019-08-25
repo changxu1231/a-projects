@@ -60,6 +60,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/_header.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="891">
               <caret line="33" column="73" selection-start-line="33" selection-start-column="73" selection-end-line="33" selection-end-column="73" />
               <folding>
@@ -77,6 +78,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="648">
               <caret line="24" selection-start-line="24" selection-end-line="24" />
+=======
+            <state relative-caret-position="69">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+>>>>>>> Stashed changes
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#iframe#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -459,14 +464,37 @@
       <workItem from="1566180901727" duration="5052000" />
       <workItem from="1566193475983" duration="16581000" />
       <workItem from="1566218572537" duration="2082000" />
+<<<<<<< Updated upstream
+=======
+      <workItem from="1566263474229" duration="1027000" />
+      <workItem from="1566264968220" duration="5477000" />
+      <workItem from="1566279585314" duration="15402000" />
+      <workItem from="1566308517664" duration="788000" />
+      <workItem from="1566354720210" duration="593000" />
+      <workItem from="1566461403531" duration="885000" />
+      <workItem from="1566474138418" duration="452000" />
+      <workItem from="1566492581192" duration="920000" />
+      <workItem from="1566713362832" duration="3819000" />
+      <workItem from="1566717788605" duration="3017000" />
+      <workItem from="1566732026625" duration="4446000" />
+      <workItem from="1566736623933" duration="654000" />
+      <workItem from="1566737841839" duration="684000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="110437000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-14" y="0" width="1386" height="731" extended-state="1" />
+=======
+    <option name="totallyTimeSpent" value="151048000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+>>>>>>> Stashed changes
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28733033" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -477,14 +505,24 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
+<<<<<<< Updated upstream
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.64154106" />
+=======
+      <window_info anchor="bottom" id="Find" order="1" weight="0.81407034" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.5934426" />
+>>>>>>> Stashed changes
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+<<<<<<< Updated upstream
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.63149077" />
+=======
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32998326" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.63114756" />
+>>>>>>> Stashed changes
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.8196721" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3295082" />
@@ -878,8 +916,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/security/admin-weather.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="135">
           <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+=======
+        <state relative-caret-position="69">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+>>>>>>> Stashed changes
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
