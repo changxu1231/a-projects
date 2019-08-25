@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html  xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -100,16 +100,19 @@
     </style>
     <title>Document</title>
 </head>
-<body style="overflow-y: hidden">
-<input type="button" style="display: none" id="id" onclick="bo()" value="12">
+<body style="overflow-y: hidden" >
+
 <div id="drag-container">
     <div id="spin-container">
-        <img src="/h-ui.admin/images/whellPlanting/lunbo1.jpg" alt="">
+        <a title="精彩视频" href="/user/video">
+        <img src="/h-ui.admin/images/whellPlanting/shipin1.png" alt="精彩视频">
+        </a>
         <a title="休闲娱乐" href="/user/play">
         <img src="/h-ui.admin/images/whellPlanting/xx.png" alt="休闲娱乐">
         </a>
-        <img src="/h-ui.admin/images/whellPlanting/lunbo3.jpg" alt="">
-
+        <a title="爆燃音乐" href="">
+        <img src="/h-ui.admin/images/whellPlanting/yinyue1.png" alt="爆燃音乐">
+        </a>
         <a title="用户管理" href="/user">
         <img src="/h-ui.admin/images/whellPlanting/yh2.png" alt="用户管理">
         </a>
@@ -123,11 +126,11 @@
         <img src="/h-ui.admin/images/whellPlanting/git.jpg" alt="github" >
         </a>
 
-        <video controls autoplay="autoplay" loop>
-            <source src="" type="video/mp4">
+        <video title="内置视频" style="cursor: pointer" controls  loop>
+            <source src="/h-ui.admin/video/welcome.mp4" type="video/mp4">
         </video>
 
-        <p>3D Tiktok Carousel</p>
+        <p>3D Rotation Chart</p>
     </div>
     <div id="ground"></div>
 </div>
@@ -289,5 +292,7 @@ function lun() {
 function bo() {
     this.location.href="https://www.baidu.com"
 }
+
+
 </script>
 </html>

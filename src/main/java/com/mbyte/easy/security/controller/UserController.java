@@ -299,12 +299,19 @@ public class UserController {
 	}
 	//布局
 	@RequestMapping("/welcomea")
-	public String welcomea() {
+	public String welcomea(Model model) {
+		int a = 1;
+		model.addAttribute("a",a);
 		return this.prefix + "admin-welcomea";
 	}
 	//天气预报
 	@RequestMapping("/weather")
 	public String welcome() {
 		return this.prefix + "admin-weather";
+	}
+	//精彩视频
+	@RequestMapping("/video")
+	public String video() {
+		return this.prefix + "admin-video";
 	}
 }
