@@ -1,0 +1,35 @@
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+#box{
+    width: 200px;
+    text-align: center;
+}
+#box span{
+    display: block;
+    margin-left: 90px;
+    margin-top: 34px;
+    margin-right: -40px;
+    background:url("/h-ui.admin/images/whellPlanting/shipin2.png");
+    background-size:cover
+}
+#box ul{
+    margin-top: 25px;
+    display: none;
+}
+#box li{
+    height:50px;
+}
+div{
+    float:left;
+}
+.accor{
+    color:black
+}
+a.acolor:hover{
+    color: blue;
+}
